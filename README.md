@@ -1,6 +1,6 @@
 # readmeGen
 
-screenshot: ![image](https://user-images.githubusercontent.com/69410816/98455144-bbf2bf80-213a-11eb-9a21-0552748460ab.png)
+screenshot: ![image](https://user-images.githubusercontent.com/69410816/98483500-eabe7380-21d6-11eb-88c0-a098de70c991.png)
 
 screen recording: https://drive.google.com/file/d/1wK9zFGNQaCXXQ91fTUxzPAqB64O7Ng_W/view
 
