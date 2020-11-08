@@ -2,30 +2,38 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  #Description
+  #Description:
+
   ${data.description}
 
-  #Table of Contents
+  #Table of Contents:
+  
   [Installation](#Installation)
   [Usage](#Usage)
   [Contribution](#Contribution)
   [License](#License)
   [Questions](#Questions)
 
-  #Installation
+  #Installation:
+
   ${data.installation}
 
-  #Usage
+  #Usage:
+
   ${data.usage}
 
-  #Contribution
+  #Contribution:
+
   ${data.contribution}
 
-  #License
+  #License:
+
   ${data.license}
 
   #Questions
+
   For any questions contact via:
+
   Email - ${data.email}
         or
   GitHub - ${data.username}
