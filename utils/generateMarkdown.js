@@ -2,37 +2,37 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  #Description:
+  # Description:
 
   ${data.description}
 
-  (https://img.shields.io/badge/license-${data.license})
+  ![License](https://img.shields.io/badge/license-${data.license})
 
-  #Table of Contents:
+  ## Table of Contents:
   
-  [Installation]
-  [Usage]
-  [Contribution]
-  [License]
-  [Questions]
+  [Installation](##Installation)
+  [Usage](##Usage)
+  [Contribution](##Contribution)
+  [License](##License)
+  [Questions](##Questions)
 
-  #Installation:
+  ## Installation:
 
   ${data.installation}
 
-  #Usage:
+  ## Usage:
 
   ${data.usage}
 
-  #Contribution:
+  ## Contribution:
 
   ${data.contribution}
 
-  #Testing
+  ## Testing
 
   ${data.test}
 
-  #License:
+  ## License:
 
   Copyright [2020] [${data.title}]
 
@@ -48,7 +48,7 @@ function generateMarkdown(data) {
   See the License for the specific language governing permissions and
   limitations under the License.
 
-  #Questions
+  ## Questions
 
   For any questions contact via:
 

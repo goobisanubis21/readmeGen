@@ -61,6 +61,6 @@ inquirer
         }
 
     ]).then((data) => {
-        const fileName = `${data.title}file.md`;
+        const fileName = `${data.title}.md`;
         fs.writeFile(fileName, markDown(data), (err) => err ? console.log(err) : console.log('Success! Your README file has been created.'))
     });
