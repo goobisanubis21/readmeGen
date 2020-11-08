@@ -26,6 +26,10 @@ function generateMarkdown(data) {
 
   ${data.contribution}
 
+  #Testing
+
+  ${data.test}
+
   #License:
 
   ${data.license}
