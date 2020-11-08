@@ -8,11 +8,11 @@
 
   ## Table of Contents:
   
-  [Installation](##Installation)
-  [Usage](##Usage)
-  [Contribution](##Contribution)
-  [License](##License)
-  [Questions](##Questions)
+  [Installation](#Installation)
+  [Usage](#Usage)
+  [Contribution](#Contribution)
+  [License](#License)
+  [Questions](#Questions)
 
   ## Installation:
 
