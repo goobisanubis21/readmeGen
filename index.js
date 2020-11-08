@@ -1,4 +1,5 @@
-const inquirer = require("inquirer");
+const inquirer = require('inquirer');
+const markDown = require('./utils/generateMarkdown');
 const fs = require('fs');
 
 // array of questions for user
@@ -61,17 +62,18 @@ inquirer
 
     ]).then((data) => {
         const fileName = `${data.title}file.md`;
-        fs.writeFile(fileName, writeToFile(data), (err) => err ? console.log(err) : console.log('Success'))
+        fs.writeFile(fileName, markDown(data), (err) => err ? console.log(err) : console.log('Success! Your README file has been created.'))
     })
 
 // function to write README file
-function writeToFile(fileName, data) {
-}
+// function writeToFile(fileName, data) {
+    
+// }
 
-// function to initialize program
-function init() {
+// // function to initialize program
+// function init() {
 
-}
+// }
 
-// function call to initialize program
-init();
+// // function call to initialize program
+// init();
